@@ -15,9 +15,10 @@ Uses Memory.dll : https://github.com/erfg12/memory.dll/
 2. It already has function defination to find aow_exe.exe as it changes everytime the game is launched (Can be changed to adapt for other emulators)
 3. This can be used with AndroidEmulatorEx.exe engine of Gameloop or other emulators as long as they are not protected by anticheat and we can write to its memory.
 
-
 ## Usage : 
 1. Launch your Game in AndroidEmulatorEx.exe of Gameloop . 
 2. On game startup or actually anytime as long as the game is running , run the compiled exe and click bypass . 
 
 # HOPE THIS HELPS AND U CAN HAVE A GREAT TIME LEARNING 
+
+NOTE : You do need Visual Studio to compile this.
