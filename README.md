@@ -8,8 +8,8 @@ My only aim to upload this was to provide a easy way for newbies like me to get 
 
 ## Features : 
 1. ### Patch(long library_header_address, long offset, string bytes)
- library_header_address : It is the address of the Library inside aow_exe.exe . For now currently only 2 headers are defined , anogs and ue4 (for libanogs.so and libUE4.so of BGMI 3.4 32bit respectively) . This header is essentially the the first 52 bytes of the library . U can open the library inside a Hex editor like HxD and copy the first 52 bytes , that is ur header . Then we use AobScan function provided by Memory.dll to find the address of the library inside aow_exe.exe .
-   offset : The offset inside the library . U can use a dissassembler like Ida , Ghidra to find offsets of functions . 
+  library_header_address : It is the address of the Library inside aow_exe.exe . For now currently only 2 headers are defined , anogs and ue4 (for libanogs.so and libUE4.so of BGMI 3.4 32bit respectively) . This header is essentially the the first 52 bytes of the library . U can open the library inside a Hex editor like HxD and copy the first 52 bytes , that is ur header . Then we use AobScan function provided by Memory.dll to find the address of the library inside aow_exe.exe . \n
+   offset : The offset inside the library . U can use a dissassembler like Ida , Ghidra to find offsets of functions . \n
    bytes : The bytes that will be written in that offset . Writebytes function of Memory.dll is used to write the bytes . 
 
 2. It already has function defination to find aow_exe.exe as it changes everytime the game is launched (Can be changed to adapt for other emulators)
