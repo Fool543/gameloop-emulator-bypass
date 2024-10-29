@@ -72,6 +72,8 @@ namespace SlowX
                 //
                 //Patch ANOGS OR OTHER LIBRARIES
                 //
+
+                //For Example Patch(anogs, 0x8A42A, "0x00 0x20 0x70 0x47"); 
             }
             catch (Exception ex)
             {
